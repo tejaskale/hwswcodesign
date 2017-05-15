@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_processing_unit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_processing_unit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="171329160000fs"></ZoomStartTime>
+      <ZoomEndTime time="173025160002fs"></ZoomEndTime>
+      <Cursor1Time time="172049160000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="logic" fp_name="/tb_processing_unit/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_processing_unit/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_processing_unit/enable_sig">
+      <obj_property name="ElementShortName">enable_sig</obj_property>
+      <obj_property name="ObjectShortName">enable_sig</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/din_0_sig">
+      <obj_property name="ElementShortName">din_0_sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_0_sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/din_1_sig">
+      <obj_property name="ElementShortName">din_1_sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_1_sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/din_2_sig">
+      <obj_property name="ElementShortName">din_2_sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_2_sig[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_processing_unit/o_wr_en_sig">
+      <obj_property name="ElementShortName">o_wr_en_sig</obj_property>
+      <obj_property name="ObjectShortName">o_wr_en_sig</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/GPIO">
+      <obj_property name="ElementShortName">GPIO[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/prof_data">
+      <obj_property name="ElementShortName">prof_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prof_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_processing_unit/prof_wren">
+      <obj_property name="ElementShortName">prof_wren</obj_property>
+      <obj_property name="ObjectShortName">prof_wren</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_processing_unit/prof_full">
+      <obj_property name="ElementShortName">prof_full</obj_property>
+      <obj_property name="ObjectShortName">prof_full</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_processing_unit/FRAME_HEIGHT">
+      <obj_property name="ElementShortName">FRAME_HEIGHT</obj_property>
+      <obj_property name="ObjectShortName">FRAME_HEIGHT</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_processing_unit/FRAME_WIDTH">
+      <obj_property name="ElementShortName">FRAME_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/Gx_exp">
+      <obj_property name="ElementShortName">Gx_exp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gx_exp[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/uut/Gx">
+      <obj_property name="ElementShortName">Gx[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gx[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/Gy_exp">
+      <obj_property name="ElementShortName">Gy_exp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gy_exp[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/uut/Gy">
+      <obj_property name="ElementShortName">Gy[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Gy[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/o_dat_exp">
+      <obj_property name="ElementShortName">o_dat_exp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_dat_exp[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_processing_unit/o_data_sig">
+      <obj_property name="ElementShortName">o_data_sig[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_sig[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
